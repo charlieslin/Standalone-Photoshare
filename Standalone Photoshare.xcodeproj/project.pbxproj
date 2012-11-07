@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C59F88D9164AEC6200FF48B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59F88D8164AEC6200FF48B1 /* UIKit.framework */; };
+		C59F88DB164AEC6200FF48B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59F88DA164AEC6200FF48B1 /* Foundation.framework */; };
+		C59F88DD164AEC6200FF48B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59F88DC164AEC6200FF48B1 /* CoreGraphics.framework */; };
+		C59F88E3164AEC6200FF48B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C59F88E1164AEC6200FF48B1 /* InfoPlist.strings */; };
+		C59F88E5164AEC6200FF48B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C59F88E4164AEC6200FF48B1 /* main.m */; };
+		C59F88E9164AEC6200FF48B1 /* photoshareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59F88E8164AEC6200FF48B1 /* photoshareAppDelegate.m */; };
+		C59F88EB164AEC6200FF48B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C59F88EA164AEC6200FF48B1 /* Default.png */; };
+		C59F88ED164AEC6300FF48B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C59F88EC164AEC6300FF48B1 /* Default@2x.png */; };
+		C59F88EF164AEC6300FF48B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C59F88EE164AEC6300FF48B1 /* Default-568h@2x.png */; };
+		C59F88F2164AEC6300FF48B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59F88F0164AEC6300FF48B1 /* MainStoryboard.storyboard */; };
+		C59F88F5164AEC6300FF48B1 /* photoshareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59F88F4164AEC6300FF48B1 /* photoshareViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C59F88D4164AEC6200FF48B1 /* Standalone Photoshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Standalone Photoshare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59F88D8164AEC6200FF48B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C59F88DA164AEC6200FF48B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C59F88DC164AEC6200FF48B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C59F88E0164AEC6200FF48B1 /* Standalone Photoshare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Standalone Photoshare-Info.plist"; sourceTree = "<group>"; };
+		C59F88E2164AEC6200FF48B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C59F88E4164AEC6200FF48B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C59F88E6164AEC6200FF48B1 /* Standalone Photoshare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Standalone Photoshare-Prefix.pch"; sourceTree = "<group>"; };
+		C59F88E7164AEC6200FF48B1 /* photoshareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = photoshareAppDelegate.h; sourceTree = "<group>"; };
+		C59F88E8164AEC6200FF48B1 /* photoshareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoshareAppDelegate.m; sourceTree = "<group>"; };
+		C59F88EA164AEC6200FF48B1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C59F88EC164AEC6300FF48B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C59F88EE164AEC6300FF48B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C59F88F1164AEC6300FF48B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C59F88F3164AEC6300FF48B1 /* photoshareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = photoshareViewController.h; sourceTree = "<group>"; };
+		C59F88F4164AEC6300FF48B1 /* photoshareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photoshareViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C59F88D1164AEC6200FF48B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59F88D9164AEC6200FF48B1 /* UIKit.framework in Frameworks */,
+				C59F88DB164AEC6200FF48B1 /* Foundation.framework in Frameworks */,
+				C59F88DD164AEC6200FF48B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C59F88C9164AEC6200FF48B1 = {
+			isa = PBXGroup;
+			children = (
+				C59F88DE164AEC6200FF48B1 /* Standalone Photoshare */,
+				C59F88D7164AEC6200FF48B1 /* Frameworks */,
+				C59F88D5164AEC6200FF48B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C59F88D5164AEC6200FF48B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59F88D4164AEC6200FF48B1 /* Standalone Photoshare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C59F88D7164AEC6200FF48B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59F88D8164AEC6200FF48B1 /* UIKit.framework */,
+				C59F88DA164AEC6200FF48B1 /* Foundation.framework */,
+				C59F88DC164AEC6200FF48B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59F88DE164AEC6200FF48B1 /* Standalone Photoshare */ = {
+			isa = PBXGroup;
+			children = (
+				C59F88E7164AEC6200FF48B1 /* photoshareAppDelegate.h */,
+				C59F88E8164AEC6200FF48B1 /* photoshareAppDelegate.m */,
+				C59F88F0164AEC6300FF48B1 /* MainStoryboard.storyboard */,
+				C59F88F3164AEC6300FF48B1 /* photoshareViewController.h */,
+				C59F88F4164AEC6300FF48B1 /* photoshareViewController.m */,
+				C59F88DF164AEC6200FF48B1 /* Supporting Files */,
+			);
+			path = "Standalone Photoshare";
+			sourceTree = "<group>";
+		};
+		C59F88DF164AEC6200FF48B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59F88E0164AEC6200FF48B1 /* Standalone Photoshare-Info.plist */,
+				C59F88E1164AEC6200FF48B1 /* InfoPlist.strings */,
+				C59F88E4164AEC6200FF48B1 /* main.m */,
+				C59F88E6164AEC6200FF48B1 /* Standalone Photoshare-Prefix.pch */,
+				C59F88EA164AEC6200FF48B1 /* Default.png */,
+				C59F88EC164AEC6300FF48B1 /* Default@2x.png */,
+				C59F88EE164AEC6300FF48B1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C59F88D3164AEC6200FF48B1 /* Standalone Photoshare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C59F88F8164AEC6300FF48B1 /* Build configuration list for PBXNativeTarget "Standalone Photoshare" */;
+			buildPhases = (
+				C59F88D0164AEC6200FF48B1 /* Sources */,
+				C59F88D1164AEC6200FF48B1 /* Frameworks */,
+				C59F88D2164AEC6200FF48B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Standalone Photoshare";
+			productName = "Standalone Photoshare";
+			productReference = C59F88D4164AEC6200FF48B1 /* Standalone Photoshare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C59F88CB164AEC6200FF48B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = photoshare;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Charlie Lin";
+			};
+			buildConfigurationList = C59F88CE164AEC6200FF48B1 /* Build configuration list for PBXProject "Standalone Photoshare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C59F88C9164AEC6200FF48B1;
+			productRefGroup = C59F88D5164AEC6200FF48B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C59F88D3164AEC6200FF48B1 /* Standalone Photoshare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C59F88D2164AEC6200FF48B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59F88E3164AEC6200FF48B1 /* InfoPlist.strings in Resources */,
+				C59F88EB164AEC6200FF48B1 /* Default.png in Resources */,
+				C59F88ED164AEC6300FF48B1 /* Default@2x.png in Resources */,
+				C59F88EF164AEC6300FF48B1 /* Default-568h@2x.png in Resources */,
+				C59F88F2164AEC6300FF48B1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C59F88D0164AEC6200FF48B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59F88E5164AEC6200FF48B1 /* main.m in Sources */,
+				C59F88E9164AEC6200FF48B1 /* photoshareAppDelegate.m in Sources */,
+				C59F88F5164AEC6300FF48B1 /* photoshareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C59F88E1164AEC6200FF48B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59F88E2164AEC6200FF48B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C59F88F0164AEC6300FF48B1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C59F88F1164AEC6300FF48B1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C59F88F6164AEC6300FF48B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C59F88F7164AEC6300FF48B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C59F88F9164AEC6300FF48B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Standalone Photoshare/Standalone Photoshare-Prefix.pch";
+				INFOPLIST_FILE = "Standalone Photoshare/Standalone Photoshare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C59F88FA164AEC6300FF48B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Standalone Photoshare/Standalone Photoshare-Prefix.pch";
+				INFOPLIST_FILE = "Standalone Photoshare/Standalone Photoshare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C59F88CE164AEC6200FF48B1 /* Build configuration list for PBXProject "Standalone Photoshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59F88F6164AEC6300FF48B1 /* Debug */,
+				C59F88F7164AEC6300FF48B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C59F88F8164AEC6300FF48B1 /* Build configuration list for PBXNativeTarget "Standalone Photoshare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C59F88F9164AEC6300FF48B1 /* Debug */,
+				C59F88FA164AEC6300FF48B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C59F88CB164AEC6200FF48B1 /* Project object */;
+}
